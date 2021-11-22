@@ -3,7 +3,7 @@ const glob=require("glob");
 const {promisify}=require("util");
 const merge=require("webpack-merge");
 
-const webpack_public=require("./webpack.public");
+const webpack_public_config=require("./webpack.public.config");
 
 const source_path=path.resolve(__dirname,"./src/");
 const match_glob_path=path.resolve(__dirname,"./src/**/*.vue");
@@ -23,5 +23,5 @@ module.exports=async ()=>{
       filename: "[name].js",
       libraryTarget: "commonjs2"
     }
-  },webpack_public);
+  },webpack_public_config);
 };
