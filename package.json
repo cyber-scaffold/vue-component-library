@@ -1,7 +1,7 @@
 {
-  "name": "test-vue-transform",
+  "name": "vue-component-library",
   "version": "1.0.0",
-  "description": "",
+  "description": "基于webpack和vue2.0的组件库脚手架",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-cli serve --config=webpack.dev.config.js",
