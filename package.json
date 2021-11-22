@@ -2,7 +2,7 @@
   "name": "vue-component-library",
   "version": "1.0.0",
   "description": "基于webpack和vue2.0的组件库脚手架",
-  "main": "index.js",
+  "main": "dist",
   "scripts": {
     "dev": "webpack-cli serve --config=webpack.dev.config.js",
     "build": "webpack --watch --config=webpack.build.config.js"
