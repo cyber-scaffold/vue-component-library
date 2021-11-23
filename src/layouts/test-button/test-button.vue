@@ -9,11 +9,10 @@
 <script>
 /**
  * 这是自定义的按钮组件
- * @link https://github.com/cyber-scaffold/vue-component-library/tree/master/src/Layout/test-button
- * @displayName test-button2
+ * @displayName test-button
  * */
 export default {
-  name: "test-button2",
+  name: "test-button",
 
   props: {
     /**

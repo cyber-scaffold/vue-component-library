@@ -1,26 +1,26 @@
 
 <template>
-  <div @click="handleClick">
-    <slot></slot>
-  </div>
+  <select>
+    <option value="1">选项1</option>
+    <option value="2">选项2</option>
+  </select>
 </template>
 
 
 <script>
 /**
  * 这是自定义的按钮组件
- * @link https://github.com/cyber-scaffold/vue-component-library/tree/master/src/Layout/test-button
- * @displayName test-button
+ * @displayName test-select
  * */
 export default {
-  name: "test-button",
+  name: "test-select",
 
   props: {
     /**
      * 按钮类型
      * @values primary,default
      * */
-    buttonType: { type: String, default: "primary", required: true },
+    value: { type: String, required: true },
   },
 
   methods: {

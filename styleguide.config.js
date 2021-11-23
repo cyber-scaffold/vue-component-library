@@ -7,15 +7,15 @@ module.exports = {
   exampleMode:"expand",
   pagePerSection:true,
   sections:[{
-    name:"layout",
+    name:"layouts",
     sectionDepth:1,
-    content:path.resolve(__dirname,'./src/Layout/layout.md'),
-    components: path.resolve(__dirname,'./src/Layout/**/*.vue'),
+    content:path.resolve(__dirname,'./src/layouts/README.md'),
+    components: path.resolve(__dirname,'./src/layouts/**/*.vue'),
   },{
-    name:"layout2",
+    name:"form-helpers",
     sectionDepth:1,
-    content:path.resolve(__dirname,'./src/Layout2/layout.md'),
-    components: path.resolve(__dirname,'./src/Layout2/**/*.vue'),
+    content:path.resolve(__dirname,'./src/form-helpers/README.md'),
+    components: path.resolve(__dirname,'./src/form-helpers/**/*.vue'),
   }],
   components: path.resolve(__dirname,'./src/**/*.vue'),
   webpackConfig: {
