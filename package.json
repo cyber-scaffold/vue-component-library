@@ -4,8 +4,8 @@
   "description": "基于webpack和vue2.0的组件库脚手架",
   "main": "dist",
   "scripts": {
-    "docs": "vuese gen && vuese serve",
-    "docs:style": "vue-styleguidist server",
+    "docs:build": "vue-styleguidist build",
+    "docs:server": "vue-styleguidist server",
     "dev": "webpack-cli serve --config=webpack.dev.config.js",
     "build": "webpack --watch --config=webpack.build.config.js"
   },

@@ -1,1 +1,2 @@
-[element-ui webpack配置](https://github.com/ElemeFE/element/blob/dev/package.json)
+[JsDoc注释规范](https://jsdoc.app/)
+[styleguidist相关配置](https://react-styleguidist.js.org/docs/configuration)

@@ -2,6 +2,15 @@ const path=require("path");
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 module.exports = {
+  title:"测试组件",
+  usageMode:"expand",
+  exampleMode:"expand",
+  pagePerSection:true,
+  sections:[{
+    name:"layout",
+    sectionDepth:1,
+    components: path.resolve(__dirname,'./src/Layout/**/*.vue'),
+  }],
   components: path.resolve(__dirname,'./src/**/*.vue'),
   webpackConfig: {
     module: {
