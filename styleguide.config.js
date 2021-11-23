@@ -9,7 +9,13 @@ module.exports = {
   sections:[{
     name:"layout",
     sectionDepth:1,
+    content:path.resolve(__dirname,'./src/Layout/layout.md'),
     components: path.resolve(__dirname,'./src/Layout/**/*.vue'),
+  },{
+    name:"layout2",
+    sectionDepth:1,
+    content:path.resolve(__dirname,'./src/Layout2/layout.md'),
+    components: path.resolve(__dirname,'./src/Layout2/**/*.vue'),
   }],
   components: path.resolve(__dirname,'./src/**/*.vue'),
   webpackConfig: {
