@@ -4,6 +4,7 @@
   "description": "基于webpack和vue2.0的组件库脚手架",
   "main": "dist",
   "scripts": {
+    "docs": "vuese gen && vuese serve",
     "dev": "webpack-cli serve --config=webpack.dev.config.js",
     "build": "webpack --watch --config=webpack.build.config.js"
   },
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",
+    "@vuese/cli": "^2.14.3",
     "@webpack-cli/serve": "^1.6.0",
     "css-loader": "^4.3.0",
     "glob": "^7.2.0",
