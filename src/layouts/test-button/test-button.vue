@@ -1,7 +1,7 @@
 
 <template>
   <div @click="handleClick">
-    <slot></slot>
+    <view>dsdsa</view>
   </div>
 </template>
 
