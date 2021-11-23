@@ -1,9 +1,11 @@
 
 <template>
-  <select>
-    <option value="1">选项1</option>
-    <option value="2">选项2</option>
-  </select>
+  <view>
+    <select>
+      <option value="1">选项1</option>
+      <option value="2">选项2</option>
+    </select>
+  </view>
 </template>
 
 

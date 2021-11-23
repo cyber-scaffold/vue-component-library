@@ -1,4 +1,4 @@
-```vue
+```md
 <template>
   <test-input></test-input>
 </template>

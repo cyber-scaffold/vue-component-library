@@ -1,6 +1,8 @@
 
 <template>
-  <input type="text" />
+  <view>
+    <input type="text" />
+  </view>
 </template>
 
 <script>

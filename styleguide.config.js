@@ -5,7 +5,10 @@ module.exports = {
   title:"测试组件",
   usageMode:"expand",
   exampleMode:"expand",
+  displayOrigins:true,
   pagePerSection:true,
+  locallyRegisterComponents:true,
+  renderRootJsx:path.resolve(__dirname, './config/styleguide.root.js'),
   sections:[{
     name:"layouts",
     sectionDepth:1,
